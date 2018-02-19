@@ -17,7 +17,7 @@ public class Service {
 	public Account getAccount()
 	{
 			
-		return getMap().get(1);
+		return getMap().get(counter);
 	}
 
 	public Map <Integer, Account> getMap() {
